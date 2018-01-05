@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+#navcontainer
+{
+	display:inline-block;
+	background: rgba(255,255,255,0.5); 
+	height:60px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	z-index:10;
+	width:100%;
+}
+
+#navlist
+{
+	margin: 0;
+	font-family:Arial;
+	font-size:30px;
+	background: rgba(255,255,255,0.5); 
+	text-align:left;
+	height:60px;
+	width:97%;
+	z-index:10;
+	box-shadow:0px 2px 5px #000;
+}
+
+#navlist ul, #navlist li
+{
+margin: 0;
+padding: 0;
+display: inline;
+list-style-type: none;
+}
+
+#navlist a:link, #navlist a:visited
+{
+float: right;
+line-height: 14px;
+font-weight: bold;
+margin: 0 10px 4px 10px;
+text-decoration: none;
+color: #999;
+padding-top:20px;
+}
+
+#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+{
+border-bottom: 2px solid #9cf;
+padding-bottom: 25px;
+color: #9cf;
+}
+
+#navlist a:hover { color: #0F6; }
+
+#navimg
+{
+	padding-top:7px;
+}
+
+.page-navigation .current a
+{
+	padding-bottom:25px;
+	border-bottom: 2px solid #9cf;
+}
+
+#body 
+{
+	background:#3CF;
+	background: linear-gradient(180deg, rgba(51,153,204,1), rgba(0,51,255,1), rgba(0,0,255,1)) ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+
+#content
+{
+	display: inline-block;
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	background:#FFF;
+	height:800px;
+	width:70%;
+}
+
+#sidebar
+{
+	display:inline-block;
+	background:rgba(51,51,51,0.5);
+	box-shadow:0px 2px 5px #000;
+	width:20%;
+	height:800px;
+	padding-left:10px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#sidebar ul, #sidebar li
+{
+	margin: 0;
+	padding: 10px 10px 10px 0px;
+	list-style-type: none;
+	border-bottom: 2px solid #333;
+}
+
+#sidebar a:link, #sidebar a:visited
+{
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+
+}
+
+#sidebar a:hover
+{
+	color:#0F6;
+}
+
+#loginbox
+{
+	background-color:rgba(255,255,255,0.5);
+	height: 30px;
+	float:right;
+	color:#999;
+	font-size:15px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	width:150px;
+}
+
+#loginbox ul, #login li
+{	
+	display:inline;
+	list-style-type: none;
+	text-decoration:none;
+	margin-top:-5px;
+}
+
+#loginbox a:visited
+{
+	color:#999;
+	font-size:7px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FunHalt Home</title>
+</head>
+
+<body id="body">
+
+<div id="loginbox">
+	<ul>
+    	<li><a href="login.php"> SIGN IN </a> <a href="register.php"> JOIN US </a></li>
+    </ul>
+</div>
+
+<p>&nbsp;</p>
+
+<nav id="navcontainer" class="page-navigation">
+	<ul id="navlist">
+    	<li><a href="#shop">CART</a></li>
+        <li><a href="#about us">GAMES</a></li>
+        <li><a href="Home.html">HOME</a></li>
+      <img id="navimg" src="funhalt logo.png" width="10%" />
+	</ul>
+</nav>
+
+<p>&nbsp;</p>
+
+<div id="sidebar">
+	<ul>
+    	<li> BROWSE BY GENRE </li>
+    	<li><a href="#genre1">Genre 1</a></li>
+        <li><a href="#genre2">Genre 2</a></li>
+    </ul>
+</div>
+	
+<div id="content", align="center">
+  <p> This is some text </p>
+</div>
+
+</body>
+</html>
